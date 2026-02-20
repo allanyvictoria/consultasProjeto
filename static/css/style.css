@@ -1,0 +1,56 @@
+/* --- CONFIGURAÇÕES DO CORPO (BODY) --- */
+body {
+    /* Um azul bem clarinho para passar calma e limpeza */
+    background-color: #f0f7ff; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- BARRA DE NAVEGAÇÃO --- */
+.navbar {
+    /* 'important' garante que o azul do Bootstrap seja substituído pelo nosso */
+    background-color: #007bff !important; 
+}
+
+/* --- CABEÇALHO (HERO SECTION) --- */
+.hero-header {
+    background-color: #ffffff; /* Fundo branco para destacar */
+    padding: 60px 20px;
+    border-radius: 0 0 50px 50px; /* Bordas arredondadas só embaixo */
+    margin-bottom: 40px;
+}
+
+/* --- ESTILO DOS CARDS (MENU) --- */
+.card-menu {
+    border: none; /* Remove a borda padrão chata */
+    border-radius: 20px; /* Deixa as quinas bem arredondadas */
+    cursor: pointer; /* Faz aparecer a "mãozinha" do mouse */
+    transition: all 0.3s ease; /* Faz qualquer mudança durar 0.3 segundos (suavidade) */
+}
+
+/* Efeito de quando passamos o mouse no card */
+.card-menu:hover {
+    background-color: #e8f4ff; /* Muda o fundo para um azul sutil */
+    transform: translateY(-10px); /* O card "sobe" 10 pixels */
+    box-shadow: 0 15px 30px rgba(0, 123, 255, 0.15); /* Sombra azulada elegante */
+}
+
+/* Tamanho dos emojis nos cards */
+.card-icon {
+    font-size: 4rem;
+}
+
+/* --- TEXTOS --- */
+h3 {
+    color: #0056b3; /* Azul um pouco mais escuro para os títulos */
+}
+
+.text-muted {
+    font-size: 0.9rem; /* Diminui um pouco a descrição dos cards */
+}
+
+/* Isso faz o texto aparecer em maiúsculo no campo de input automaticamente */
+#cadNome, #editNome, #editEspecialidade, #cadEspecialidade {
+    text-transform: uppercase;
+}
