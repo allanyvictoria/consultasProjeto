@@ -186,15 +186,27 @@ A interface utiliza um design moderno e intuitivo com:
 ## 📸 imagens
 
 ![Página Inicial](imagens/home.png)
+*Tela inicial do sistema com menu de navegação para pacientes, médicos e consultas.*
+
 ![Página de Consultas](imagens/consultas.png)
+*Lista de consultas agendadas em formato de cards, com opções de busca e edição.*
+
 ![Página de Pacientes](imagens/pacientes.png)
+*Gerenciamento de pacientes: cadastro, edição e exclusão.*
+
 ![Página de Médicos](imagens/medicos.png)
+*Gerenciamento de médicos: cadastro, edição e exclusão.*
 
 #### Cadastros 
 
 ![Cadastro de Pacientes](imagens/cadPac.png)
+*Formulário para cadastrar novo paciente com CPF, nome e telefone.*
+
 ![Cadastro de Médicos](imagens/cadMed.png)
+*Formulário para cadastrar novo médico com CRM, nome e especialidade.*
+
 ![Agendamento de Consultas](imagens/cadCons.png)
+*Modal para agendar consulta selecionando paciente, médico, data e hora.*
 
 ## 📝 Notas Importantes
 
