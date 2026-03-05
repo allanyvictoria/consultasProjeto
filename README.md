@@ -2,13 +2,13 @@
 
 Um projeto pessoal para gerenciar pacientes, médicos e consultas de forma simples e eficiente.
 
-## 📋 Funcionalidades
+##  Funcionalidades
 
 ### 👥 Gestão de Pacientes
-- ✅ Cadastrar novos pacientes com CPF, nome e telefone
-- ✅ Visualizar lista de todos os pacientes
-- ✅ Atualizar informações de pacientes
-- ✅ Deletar pacientes do sistema
+-  Cadastrar novos pacientes com CPF, nome e telefone
+-  Visualizar lista de todos os pacientes
+-  Atualizar informações de pacientes
+-  Deletar pacientes do sistema
 
 ### 👨‍⚕️ Gestão de Médicos
 - ✅ Cadastrar novos médicos com CRM, nome e especialidade
@@ -25,7 +25,7 @@ Um projeto pessoal para gerenciar pacientes, médicos e consultas de forma simpl
 - ✅ Editar consultas existentes
 - ✅ Deletar consultas
 
-## � Fluxograma do Sistema
+##  Fluxograma do Sistema
 
 ```mermaid
 flowchart TD
@@ -36,7 +36,7 @@ flowchart TD
     D --> E[Visualiza e Gerencia Consultas]
 ```
 
-## �🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 ### Backend
 - **Python 3.x** - Linguagem principal
@@ -50,7 +50,7 @@ flowchart TD
 - **Bootstrap 5** - Framework CSS
 - **JavaScript (Vanilla)** - Interatividade
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 consultasProjeto/
@@ -75,7 +75,7 @@ consultasProjeto/
     └── consulta.html       # Página de consultas
 ```
 
-## 🔧 Instalação e Configuração
+##  Instalação e Configuração
 
 ### Pré-requisitos
 - Python 3.7 ou superior
@@ -110,14 +110,14 @@ python main.py
 http://localhost:5000
 ```
 
-## 📦 Dependências
+##  Dependências
 
 - Flask==2.3.0
 - Flask-CORS==4.0.0
 
 Ver `requirements.txt` para versões específicas.
 
-## 🎯 Como Usar
+##  Como Usar
 
 ### Cadastrando um Paciente
 1. Clique em "👥 Pacientes" no menu
@@ -143,22 +143,22 @@ Ver `requirements.txt` para versões específicas.
    - **CRM do médico** (ex: 12345)
    - **Data** (ex: 31/01/2026 ou 2026-02-15)
 
-## ✨ Validações Implementadas
+##  Validações Implementadas
 
-- ✅ Paciente e médico devem existir antes de agendar consulta
-- ✅ Não é possível agendar consulta no passado
-- ✅ Não é possível agendar paciente/médico com conflito de horário (mesmo médico no mesmo horário ou paciente com duas consultas no mesmo horário)
-- ✅ CPF e CRM devem ser únicos
-- ✅ Todos os campos obrigatórios são validados
+-  Paciente e médico devem existir antes de agendar consulta
+-  Não é possível agendar consulta no passado
+-  Não é possível agendar paciente/médico com conflito de horário (mesmo médico no mesmo horário ou paciente com duas consultas no mesmo horário)
+-  CPF e CRM devem ser únicos
+-  Todos os campos obrigatórios são validados
 
-## 🔒 Segurança
+##  Segurança
 
 - Validação de dados em frontend e backend
 - Prevenção de SQL Injection com prepared statements
 - Verificação de existência de recursos antes de operações
 - Tratamento de erros com mensagens amigáveis
 
-## 🐛 Tratamento de Erros
+##  Tratamento de Erros
 
 Todos os erros retornam mensagens claras e user-friendly:
 - "Paciente não encontrado no sistema!"
@@ -167,14 +167,14 @@ Todos os erros retornam mensagens claras e user-friendly:
 - "Este paciente já possui uma consulta agendada neste horário!"
 - "Não é possível marcar uma consulta no passado!"
 
-## 📱 Interface Responsiva
+##  Interface Responsiva
 
 O sistema é totalmente responsivo e funciona bem em:
-- 💻 Desktop
-- 📱 Tablets
-- 📲 Smartphones
+-  Desktop
+-  Tablets
+-  Smartphones
 
-## 🎨 Design
+##  Design
 
 A interface utiliza um design moderno e intuitivo com:
 - Cores profissionais (azul e verde)
@@ -183,7 +183,7 @@ A interface utiliza um design moderno e intuitivo com:
 - Ícones para melhor compreensão
 - Bootstrap 5 para responsividade
 
-## 📸 imagens
+##  imagens
 
 ![Página Inicial](imagens/home.png)
 *Tela inicial do sistema com menu de navegação para pacientes, médicos e consultas.*
@@ -208,14 +208,14 @@ A interface utiliza um design moderno e intuitivo com:
 ![Agendamento de Consultas](imagens/cadCons.png)
 *Modal para agendar consulta selecionando paciente, médico, data e hora.*
 
-## 📝 Notas Importantes
+##  Notas Importantes
 
 - O banco de dados é criado automaticamente na primeira execução
 - As consultas marcadas para o passado não podem ser agendadas
 - A data mínima para agendar é sempre hoje (data atual)
 - Os dropdowns de paciente e médico carregam automaticamente os dados do banco
 
-## 📝 Notas Pessoais
+##  Notas Pessoais
 
 Este é um projeto pessoal que desenvolvi para praticar Python e Flask. Não é para uso comercial, apenas para aprendizado.
 
